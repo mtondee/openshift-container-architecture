@@ -79,8 +79,9 @@ $ subscription-manager repos --enable=rhel-server-rhscl-7-rpms   # enable Softwa
 $ yum -y install python27-python-pip -y                          # install pip
 $ scl enable python27 bash                                       # setup pip from RHSCL
 $ pip install omsdk                                              # install OpenManage SDK
-$ git clone https://github.com/dell/Dell-EMC-Ansible-Modules-for-iDRAC.git
-$ cd Dell-EMC-Ansible-Modules-for-iDRAC
+$ git clone https://github.com/dell/dellemc-openmanage-ansible-modules.git
+$ cd dellemc-openmanage-ansible-modules
+$ export PYTHONPATH=/usr/lib/python2.7/site-packages
 $ python install.py                                              # install Ansible modules
 ```
 
