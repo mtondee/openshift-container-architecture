@@ -1,7 +1,7 @@
 # Deploying Red Hat OpenShift® Container Platform 3.10 with OpenShift Container Storage
 
 ## Instructions
-Please refer to the [Reference Architecture document](https://tbd.pdf) for network diagrams and detailed server information.
+Please refer to the [Reference Architecture document](https://community.emc.com/docs/DOC-71379) for network diagrams and detailed server information.
 
 Though some of these commands can be run as a non-root user, it is assumed they are being run as root unless stated otherwise.
 
