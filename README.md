@@ -166,14 +166,20 @@ Refer to playbooks from section **Power Management**.
 ```
 
 Run Ansible playbook to modify StorageClass objects to expose two storage classes and make them available to Red Hat OpenShift users.
+```bash
 # ansible-playbook src/ocs-pool/storage-class.yml
+```
+
 The following pools are created.
+```bash
 # oc get sc
 NAME PROVISIONER AGE
 glusterfs-nvme kubernetes.io/glusterfs 1d
 glusterfs-registry-block gluster.org/glusterblock 5d
 glusterfs-sata (default) kubernetes.io/glusterfs 1d
 ---
+```
+
 ### Contributing
 If you would like to contribute code, before submitting a Pull Request please refer to the [Contributor Agreement](https://github.com/dell/openshift-container-architecture/wiki/Contributor-Agreement) page.
 
