@@ -22,7 +22,7 @@ openshift_master_cluster_ip=192.168.20.30
 openshift_master_cluster_public_ip=192.168.253.26
 openshift_master_portal_net=10.0.0.0/16
 openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider'}]
-openshift_master_htpasswd_users={'admin': '$apr1$vC6GcVUP$AHZDU5BAFF6dDMfk.IFzG1'}
+openshift_master_htpasswd_users={'admin': '$XXXX-Your_Passwd_HASH_XXXX'}
 openshift_clock_enabled=true
 os_sdn_network_plugin_name='redhat/openshift-ovs-multitenant'
  
